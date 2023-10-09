@@ -344,6 +344,13 @@ img {
     color: #cb6847;
 }
 
+.pie {
+    font-size: 15px;
+    color: #545454;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 @media (max-width: 990px) {
     .menu {
         padding: 20px;
@@ -438,7 +445,6 @@ img {
         margin-bottom: 0;
     }
 
-
     .footer {
         padding: 30px;
     }
@@ -454,6 +460,11 @@ img {
 
     .link ul li {
         margin: 0 0 15px 0;
+    }
+
+    .pie {
+        width: 100%;
+        text-align: center;
     }
 
 
