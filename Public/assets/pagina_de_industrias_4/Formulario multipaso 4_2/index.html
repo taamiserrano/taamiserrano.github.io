@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dipierre - Industrias</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="Images/eclipse.png" alt="Imagen de Inicio">
+            <h1 class="logo">Inicio</h1>
+        </div>
+    </header>
+
+    <div class='parrafo'>
+        <h1><span class="color-acento"> ¡Comencemos! </span></h1> <h2>Cuéntanos un poco más sobre tu empresa</h2>
+    </div>
+
+    <div>
+        <form id="msform" method="post" action="" name="contact-form">
+            <!-- progressbar -->
+            <ul id="progressbar">
+              <li class="active">General</li>
+              <li>Productos</li>
+              <li>Contacto</li>
+            </ul>
+            <!-- fieldsets -->
+            <fieldset>
+              <h2 class="fs-title">Así que eres experto en logística eh?</h2>
+              <h3 class="fs-subtitle">La logística es muy importatnte</h3>
+              <label for="pregunta">Cuál es el nombre de tu empresa?</label>
+              <input type="text" name="nombre" placeholder="nombre" />
+              <label for="pregunta">A qué se dedican? Cuéntanos un poco más sobre lo que hacen.</label>
+              <input type="text" name="nombre" placeholder="Ej: Hacemos mudanzas" />
+              <label for="pregunta">Qué destaca a tu negocio frente a la competencia? Cuáles dirían que son sus mejores características? </label>
+              <input type="text" name="nombre" placeholder="Ej: Somos los más rápidos del oeste" />
+              <input type="button" name="next" class="next action-button" value="Next" />
+            </fieldset>
+
+            <fieldset>
+              <h2 class="fs-title">Productos estrella!</h2>
+              <h3 class="fs-subtitle">Cuéntanos sobre esas estrellas doradas</h3>
+              <label for="pregunta">Cuáles son tus productos estrella,  los más buscados por tus clientes? Describe brevemente 3 de ellos.</label>
+              <input type="text" name="nombre" placeholder="Describe 3 productos" />
+              <label for="pregunta">No todos podemos atender a Cristiano Ronaldo, pero quién dirías que son tus clientes más destacados o importantes?</label>
+              <input type="text" name="nombre" placeholder="Ej: Mc Donals" />
+              <label for="pregunta">Cuál es la ubicación donde trabajan?</label>
+              <input type="text" name="nombre" placeholder="Ej: Viña del Mar" />
+              <input type="button" name="Previous" class="previous action-button" value="Previous" />
+              <input type="button" name="next" class="next action-button" value="Next" />
+            </fieldset>
+
+            <fieldset>
+                <h2 class="fs-title">El nombre de tu página web</h2>
+                <h3 class="fs-subtitle">Cómo te gustaría que se llame tu página? </h3>
+                <input type="text" name="hola" placeholder="Ej: Losmasrapidosdeloeste.com" />
+                <input type="button" name="previous" class="previous action-button" value="Previous" />
+                <input type="button" name="next" class="next action-button" value="Next" />
+              </fieldset>
+
+            <fieldset>
+              <h2 class="fs-title">Si quiero contratarte, cómo te contacto?</h2>
+              <h3 class="fs-subtitle">Déjanos tu correo, teléfono, y rrss más utilizadas.</h3>
+              <label for="pregunta">Correo</label>
+              <input type="text" name="que mas" placeholder="Tu correo" />
+              <label for="pregunta">Teléfono</label>
+              <input type="text" name="kease" placeholder="Ej: +56 9 123456789 " />
+              <label for="pregunta">Instagram</label>
+              <input type="text" name="que mas" placeholder="Instagram" />
+              <label for="pregunta">Facebook</label>
+              <input type="text" name="kease" placeholder="Facebook" />
+              <input type="button" name="previous" class="previous action-button" value="Previous" />
+              <input id="submit" type="submit" class="submit action-button" target="_top">
+            </fieldset>
+          </form>
+    </div>
+
+    <script src="GoogleSheet.js"></script>
+
+</body>
+</html>
