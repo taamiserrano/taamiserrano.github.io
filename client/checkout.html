@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="checkout.css">
+  </head>
+  <body>
+    <section>
+      <nav class="main-nav">
+        <!-- ***** Logo Start ***** -->
+        <a href="#" class="logo">
+            <img src="/aa/images/eclipse.png" alt="Dipierre-logo"/>
+        </a>
+        <!-- ***** Logo End ***** -->
+        <!-- ***** Menu Start ***** -->
+        <ul class="nav">
+            <li><a href="#welcome" class="active">Volver</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="titulo container">
+      <div class="titulo">
+        <h1>Paga con Paypal Aquí</h1>
+      </div>
+      <div class="btn" id="paypal-button-container"></div>
+      <p id="result-message"></p>
+    <!-- Replace the "test" client-id value with your client-id -->
+      <script src="https://www.paypal.com/sdk/js?client-id=ARmnBR0tq2_bfdqjROLXv4PUHa3pg7ED4ELbyhKuLCAR6Oq_0iPGFsCNcgWyceCpAmyPS3PubsU5O6PU&components=buttons&enable-funding=venmo,paylater" data-sdk-integration-source="integrationbuilder_sc"></script>
+      <script src="app.js"></script>
+    </section>
+  </body>
+</html>
