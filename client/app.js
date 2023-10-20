@@ -1,4 +1,5 @@
-window.paypal
+function initializePayPal() {
+    window.paypal
   .Buttons({
     style: {
       shape: 'pill',
@@ -97,3 +98,4 @@ function resultMessage(message) {
   const container = document.querySelector("#result-message");
   container.innerHTML = message;
 }
+  }
