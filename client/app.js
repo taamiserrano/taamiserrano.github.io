@@ -18,8 +18,8 @@ function initializePayPal() {
           body: JSON.stringify({
             cart: [
               {
-                id: "YOUR_PRODUCT_ID",
-                quantity: "YOUR_PRODUCT_QUANTITY",
+                id: "Plan Crece",
+                quantity: "1",
               },
             ],
           }),
