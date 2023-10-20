@@ -1,0 +1,130 @@
+html,
+body {
+  background: linear-gradient(#282829, #282829); /* Fondo degradado de dos colores */
+  font-family: 'roboto', sans-serif;
+}
+
+::selection {
+  background: #16D298;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #16D298;
+  color: #fff;
+}
+
+.section {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.main-nav {
+
+    border: 1px solid rgba(255, 255, 255, 0.235);
+    border-radius: 20px;
+    min-height: 40px;
+    background: #282829;
+}
+  
+.main-nav .logo {
+    float: left;
+    margin-top: 37px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-left: 30px;
+}
+  
+  /*imagen de inicio tamaño*/
+.main-nav .logo img {
+    width: 30px !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+  
+  /*imagen de inicio posición*/
+.logo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: end; /* Centra verticalmente */
+    height: 1.1vh; /* Ajusta la altura según sea necesario */
+}
+
+.main-nav .nav {
+    float: right;
+    margin-top: 27px;
+    margin-left: 0px;
+    margin-right: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 999;
+}
+  
+.main-nav .nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+.main-nav .nav li:last-child {
+    padding-right: 0px;
+}
+  
+.main-nav .nav li a {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    height: 40px;
+    line-height: 40px;
+    border: transparent;
+    letter-spacing: 1px;
+}
+  
+.main-nav .nav li a:hover {
+    color: #00d423;
+
+}
+
+.titulo {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.titulo .btn {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #16D298;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    box-shadow: 1px 1px 10px rgba(56, 53, 53, 0.919);
+}
