@@ -1,5 +1,4 @@
-function initializePayPal() {
-    window.paypal
+window.paypal
   .Buttons({
     style: {
       shape: 'pill',
@@ -18,8 +17,8 @@ function initializePayPal() {
           body: JSON.stringify({
             cart: [
               {
-                id: "Plan Crece",
-                quantity: "1",
+                id: "YOUR_PRODUCT_ID",
+                quantity: "YOUR_PRODUCT_QUANTITY",
               },
             ],
           }),
@@ -98,4 +97,3 @@ function resultMessage(message) {
   const container = document.querySelector("#result-message");
   container.innerHTML = message;
 }
-  }

@@ -1,6 +1,6 @@
 ![PayPal Developer Cover](https://github.com/paypaldev/.github/blob/main/pp-cover.png)
 
-<div aligne="center">
+<div align="center">
   <a href="https://twitter.com/paypaldev" target="_blank">
     <img alt="Twitter: PayPal Developer" src="https://img.shields.io/twitter/follow/paypaldev?style=social" />
   </a>
